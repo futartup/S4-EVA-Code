@@ -4,9 +4,9 @@ The model:
 
 # Block 1
 
-28 * 28 * 1 | 3 * 3 * 1 * 8 | 28 * 28 * 8. ==> relu + batch normalization
-28 * 28 * 8 | 3 * 3 * 8 * 8 | 28 * 28 * 8. ==> relu + batch normalization
-28 * 28 * 8 | 3 * 3 * 8 * 8 | 28 * 28 * 8. ==> relu + batch normalization + max pooling + dropout(0.25)
+> 28 * 28 * 1 | 3 * 3 * 1 * 8 | 28 * 28 * 8. ==> relu + batch normalization
+> 28 * 28 * 8 | 3 * 3 * 8 * 8 | 28 * 28 * 8. ==> relu + batch normalization
+> 28 * 28 * 8 | 3 * 3 * 8 * 8 | 28 * 28 * 8. ==> relu + batch normalization + max pooling + dropout(0.25)
 
 # Block 2
 
